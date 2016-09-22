@@ -2,5 +2,9 @@
     {
         "merged": "/home/sven/AndroidStudioProjects/ToDoList_lab1/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/icon.png",
         "source": "/home/sven/AndroidStudioProjects/ToDoList_lab1/app/src/main/res/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "/Users/Dan_Ellis/AndroidStudioProjects/hw02-fragments-cmsc374/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/icon.png",
+        "source": "/Users/Dan_Ellis/AndroidStudioProjects/hw02-fragments-cmsc374/app/src/main/res/drawable-ldpi/icon.png"
     }
 ]
