@@ -1,7 +1,15 @@
 [
     {
+        "merged": "/Users/Dan_Ellis/AndroidStudioProjects/hw02-fragments-cmsc374/app/build/intermediates/res/merged/debug/layout/fragment_item_list.xml",
+        "source": "/Users/Dan_Ellis/AndroidStudioProjects/hw02-fragments-cmsc374/app/src/main/res/layout/fragment_item_list.xml"
+    },
+    {
         "merged": "/Users/Dan_Ellis/AndroidStudioProjects/hw02-fragments-cmsc374/app/build/intermediates/res/merged/debug/layout/main.xml",
         "source": "/Users/Dan_Ellis/AndroidStudioProjects/hw02-fragments-cmsc374/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/Dan_Ellis/AndroidStudioProjects/hw02-fragments-cmsc374/app/build/intermediates/res/merged/debug/layout/activity_fragment.xml",
+        "source": "/Users/Dan_Ellis/AndroidStudioProjects/hw02-fragments-cmsc374/app/src/main/res/layout/activity_fragment.xml"
     },
     {
         "merged": "/home/sven/AndroidStudioProjects/ToDoList_lab1/app/build/intermediates/res/merged/debug/layout/main.xml",

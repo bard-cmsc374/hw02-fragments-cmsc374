@@ -26,8 +26,8 @@ public class ToDoList extends Activity {
         super.onCreate(stuff);
 
         // Inflate your view
-        setContentView(R.layout.main); // Extracts resources, autogenerates R.java from XML file
-
+        ///setContentView(R.layout.main); // Extracts resources, autogenerates R.java from XML file
+        setContentView(R.layout.activity_fragment);
         // Get references to UI widgets
         mEditText = (EditText) findViewById(R.id.myEditText);
         mItemButton = (Button) findViewById(R.id.addButton);
