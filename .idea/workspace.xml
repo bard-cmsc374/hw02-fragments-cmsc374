@@ -7,10 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e52fb3a2-d082-4cfe-ad80-402ca9a4bf7d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
     </list>
     <ignored path="ToDoList_Chpt4A.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -123,6 +120,11 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Gareth" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -2106,7 +2108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1475051734706</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Merge remote-tracking branch 'remotes/origin/ListView' into ItemView&#10;&#10;# Conflicts:&#10;#&#9;.gradle/2.14.1/taskArtifacts/cache.properties.lock&#10;#&#9;.gradle/2.14.1/taskArtifacts/fileHashes.bin&#10;#&#9;.gradle/2.14.1/taskArtifacts/fileSnapshots.bin&#10;#&#9;.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin&#10;#&#9;.gradle/2.14.1/taskArtifacts/taskArtifacts.bin&#10;#&#9;.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin&#10;#&#9;.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock&#10;#&#9;.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin&#10;#&#9;.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock&#10;#&#9;app/app.iml&#10;#&#9;app/build.gradle&#10;#&#9;app/build/generated/source/r/debug/edu/bard/todolist_lab1/R.java&#10;#&#9;app/build/intermediates/blame/res/debug/multi/values.json&#10;#&#9;app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json&#10;#&#9;app/build/intermediates/blame/res/debug/single/drawable-ldpi-v4.json&#10;#&#9;app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json&#10;#&#9;app/build/intermediates/blame/res/debug/single/layout.json&#10;#&#9;app/build/intermediates/classes/debug/edu/bard/todolist_lab1/R$id.class&#10;#&#9;app/build/intermediates/classes/debug/edu/bard/todolist_lab1/R$layout.class&#10;#&#9;app/build/intermediates/classes/debug/edu/bard/todolist_lab1/R$string.class&#10;#&#9;app/build/intermediates/classes/debug/edu/bard/todolist_lab1/ToDoList$1.class&#10;#&#9;app/build/intermediates/classes/debug/edu/bard/todolist_lab1/ToDoList.class&#10;#&#9;app/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml&#10;#&#9;app/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml&#10;#&#9;app/build/intermediates/incremental/mergeDebugAndroidTestShaders/merger.xml&#10;#&#9;app/build/intermediates/incremental/mergeDebugAssets/merger.xml&#10;#&#9;app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml&#10;#&#9;app/build/intermediates/incremental/mergeDebugResources/merger.xml&#10;#&#9;app/build/intermediates/incremental/mergeDebugShaders/merger.xml&#10;#&#9;app/build/intermediates/res/merged/debug/values/values.xml&#10;#&#9;app/build/intermediates/res/resources-debug.ap_&#10;#&#9;app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_cd58eb2737438ca685524431f6918ee664a7e492/classes.dex&#10;#&#9;app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex&#10;#&#9;app/build/outputs/apk/app-debug-unaligned.apk&#10;#&#9;app/build/outputs/apk/app-debug.apk&#10;#&#9;app/build/outputs/logs/manifest-merger-debug-report.txt&#10;#&#9;app/src/main/AndroidManifest.xml&#10;#&#9;app/src/main/java/edu/bard/todolist_lab1/ToDoList.java&#10;#&#9;build/intermediates/dex-cache/cache.xml&#10;#&#9;hw02-fragments-cmsc374.iml&#10;#&#9;local.properties&#10;">
+      <created>1475052090298</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1475052090298</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
