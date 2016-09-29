@@ -12,7 +12,7 @@
         android:icon="@drawable/icon"
         android:label="@string/app_name" >
         <activity
-            android:name="edu.bard.todolist_lab1.ListActivity"
+            android:name="edu.bard.todolist_lab1.ToDoList"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

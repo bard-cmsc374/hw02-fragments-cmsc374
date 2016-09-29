@@ -1,5 +1,6 @@
 package edu.bard.todolist_lab1;
 
+import android.app.Activity;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.text.Editable;
@@ -23,6 +24,7 @@ public class ItemView extends Fragment {
         public void itemToSend(String s);
     }
 
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,7 +36,7 @@ public class ItemView extends Fragment {
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_item_view, container, false);
 
-        mEditText = (EditText)v.findViewById(R.id.crime_title);
+        mEditText = (EditText)v.findViewById(R.id.EditText);
 
 
         mButton = (Button)v.findViewById(R.id.addButton);

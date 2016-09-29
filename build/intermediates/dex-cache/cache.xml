@@ -2,11 +2,139 @@
 <items version="2" >
 
     <item
-        jar="/Users/Dan_Ellis/AndroidStudioProjects/hw02-fragments-cmsc374/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_2bb6e47e59d11414ced1b3df0708fcf5271e7538/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_42766f085a4da492fe5477f1c0a7278c2c4b281f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_d63b708c3d3d41fde8968b7d35cb758293c2c9a7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_fa6248f5f59119201d86c1dd8c8ae27c7f9c38a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_123c52a83a7123c316adc7fca20404a09f359e00/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="067794a17acf641bb29e40f34fca30c9546b21bb">
+        <dex dex="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8620dbafe999f1e89315e585c1b05c3142ffa25c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="24.0.0"
         sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="/Users/Dan_Ellis/AndroidStudioProjects/hw02-fragments-cmsc374/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_fd60513b7d3b551703a10a7e82e9c8f0c999b617.jar" />
+        <dex dex="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_c27f20498706a573b76ac3c4297e10264eb261dd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="7c265ff4dbc3058e537e813d45d55c67a60dc259">
+        <dex dex="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_cd58eb2737438ca685524431f6918ee664a7e492/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_1d632eabc4ec084da5d84cbb5b05a717b462b8b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_8b112086f84fe473335a95677a8e448b2b22e803/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_21387bbbfe4b1544ca83818fe36d2ead4d075f1c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_839890e3515fbef897a39787538da25447687c08/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_2dbbda599d0c02f3c1fec7c21576ed7765d5d666/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_d115774443fd6cbdca56fff3ebab01d488e6c0f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/GV/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_265e5979480e4d34da6646fafce0a6eb91ec2bc0/classes.dex" />
     </item>
 
 </items>

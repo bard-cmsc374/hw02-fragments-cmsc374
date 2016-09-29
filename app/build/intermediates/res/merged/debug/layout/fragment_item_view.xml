@@ -12,6 +12,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <EditText android:id="@+id/EditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/item_title"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_bright" />
+
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="50dp"
@@ -24,29 +31,8 @@
                 android:text="@string/add_button"
                 android:layout_gravity="left|center_vertical"
                 android:layout_weight="1"
-                style="@android:style/Widget.DeviceDefault.Light.Button"
                 android:background="?android:attr/textColorLink" />
 
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
-
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="50dp">
-
-            </FrameLayout>
-
-            <EditText android:id="@+id/crime_title"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:hint="@string/item_title"
-                tools:background="?android:attr/textColorHighlight"
-                android:paddingLeft="20dp"></EditText>
         </LinearLayout>
 
     </LinearLayout>

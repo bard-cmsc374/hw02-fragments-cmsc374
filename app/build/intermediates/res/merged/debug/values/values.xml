@@ -5,8 +5,8 @@
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
     <item name="item_touch_helper_previous_elevation" type="id"/>
-    <string name="add_button">Add</string>
+    <string name="add_button">+</string>
     <string name="add_item_hint">New To Do Item</string>
-    <string name="app_name">ToDoList</string>
-    <string name="hello">Hello World, ToDoList</string>
+    <string name="app_name">Say Something</string>
+    <string name="item_title">Type here</string>
 </resources>

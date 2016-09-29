@@ -1,7 +1,7 @@
-#Wed Sep 28 04:16:13 EDT 2016
+#Wed Sep 28 21:18:51 EDT 2016
 base.0=/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8620dbafe999f1e89315e585c1b05c3142ffa25c
-renamed.1=classes2.dex
-renamed.0=classes.dex
+renamed.1=classes.dex
+renamed.0=classes2.dex
 file.1=/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_cd58eb2737438ca685524431f6918ee664a7e492/classes.dex
 base.1=/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_cd58eb2737438ca685524431f6918ee664a7e492
 file.0=/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8620dbafe999f1e89315e585c1b05c3142ffa25c/classes.dex

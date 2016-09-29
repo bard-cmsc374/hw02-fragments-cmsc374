@@ -1,13 +1,13 @@
 #Internal package file, do not edit.
-#Wed Sep 28 04:15:49 EDT 2016
+#Wed Sep 28 21:30:55 EDT 2016
 1.base=/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/res/resources-debug.ap_
 4.file=/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/res/resources-debug.ap_/res/layout/fragment_item_view.xml
-1.file=/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+1.file=/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/icon.png
 4.set=ANDROID_RESOURCE
 2.base=/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/res/resources-debug.ap_
 3.set=ANDROID_RESOURCE
 2.set=ANDROID_RESOURCE
-2.file=/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/icon.png
+2.file=/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
 count=5
 1.set=ANDROID_RESOURCE
 3.base=/Users/GV/Desktop/hw02-fragments-cmsc374/app/build/intermediates/res/resources-debug.ap_
