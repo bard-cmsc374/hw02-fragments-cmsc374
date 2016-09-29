@@ -11,24 +11,39 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
+/**
+ * Creat by Gareth Valentin on 9.24
+ */
 
 public class ItemView extends Fragment {
 
-    private ToDoList mToDoList;
+
     private EditText mEditText;
     private Button mButton;
-    public Listener mListener;
+    public ItemListener mListener;
 
 
-    public interface Listener {
+    public interface ItemListener {
         public void itemToSend(String s);
     }
 
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+
+
+        try {
+            mListener = (ItemListener) activity;
+        } catch (ClassCastException e) {
+            throw new ClassCastException(activity.toString()
+                    + " must implement ItemListener");
+        }
+    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mToDoList = new ToDoList();
+
     }
 
     @Override

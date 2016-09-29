@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.app.ListFragment;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -16,14 +17,10 @@ import java.util.List;
 import java.util.ArrayList;
 
 
-public class ToDoList extends FragmentActivity {
+public class ToDoList extends FragmentActivity implements ItemView.ItemListener{
     public static String TAG = "todolab";
+    private String mItem;
 
-    private EditText mEditText; // enter todo item
-    private Button mItemButton; // add the item to the list
-    private ArrayList<String> mToDoItems; // list of items
-    private ArrayAdapter<String> aa; // adapter from list to viewlist
-    private ListView mListView;
 
 
     @Override
@@ -31,26 +28,35 @@ public class ToDoList extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
+
         FragmentManager fm = getSupportFragmentManager();
-        Fragment fragment1 = fm.findFragmentById(R.id.fragment_container);
+
+        Fragment fragment1 = fm.findFragmentById(R.id.ListView);
         if (fragment1 == null) {
             fragment1 = new ItemView();
             fm.beginTransaction()
-                    .add(R.id.fragment_container, fragment1)
+                    .add(R.id.ListView, fragment1)
                     .commit(); }
+
       
-        Fragment fragment2 = fm.findFragmentById(R.id.item_recycler_view);
+        Fragment fragment2 = fm.findFragmentById(R.id.ItemView);
         if (fragment2 == null) {
             fragment2 = new ItemView();
             fm.beginTransaction()
-                    .add(R.id.item_recycler_view, fragment2)
+                    .add(R.id.ItemView, fragment2)
                     .commit(); }
 
 
         Log.i(TAG, "Entered onCreate");
     }
 
+    public void itemToSend (String item) {
 
+        mItem = item;
+        ItemListFragment itemlistFrag = (ItemListFragment)getSupportFragmentManager().findFragmentById(R.id.ListView);
+        itemlistFrag.addItem(mItem);
+
+    }
 
     protected void onStart() {
         super.onStart();
