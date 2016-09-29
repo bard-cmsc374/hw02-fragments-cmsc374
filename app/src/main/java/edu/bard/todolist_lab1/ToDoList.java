@@ -1,11 +1,11 @@
 package edu.bard.todolist_lab1;
-/*
-  Most basic Todo List in one activity, no fragments.
- */
-import java.util.ArrayList;
+
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -13,42 +13,33 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 
-public class ToDoList extends Activity {
+
+public class ToDoList extends FragmentActivity {
     public static String TAG = "todolab";
-    private EditText mEditText; // enter todo item
-    private Button mItemButton; // add the item to the list
-    private ArrayList<String> mToDoItems; // list of items
-    private ArrayAdapter<String> aa; // adapter from list to viewlist
-    private ListView mListView;
+
+
+
 
     @Override
-    public void onCreate(Bundle stuff) {
-        super.onCreate(stuff);
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
 
-        // Inflate your view
-        setContentView(R.layout.main); // Extracts resources, autogenerates R.java from XML file
+        FragmentManager fm = getSupportFragmentManager();
+        Fragment fragment1 = fm.findFragmentById(R.id.fragment_item_view);
+        if (fragment1 == null) {
+            fragment1 = new ItemView();
+            fm.beginTransaction()
+                    .add(R.id.fragment_item_view, fragment1)
+                    .commit(); }
+      
+        Fragment fragment2 = fm.findFragmentById(R.id.fragment_list_view);
+        if (fragment2 == null) {
+            fragment2 = new ItemView();
+            fm.beginTransaction()
+                    .add(R.id.fragment_item_view, fragment2)
+                    .commit(); }
 
-        // Get references to UI widgets
-        mEditText = (EditText) findViewById(R.id.myEditText);
-        mItemButton = (Button) findViewById(R.id.addButton);
-        mListView = (ListView) findViewById(R.id.myListView);
-
-        // Create the ArrayList and the ArrayAdapter
-        mToDoItems = new ArrayList<String>();
-        aa = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, mToDoItems);
-
-        // Bind the listview to the array adapter
-        mListView.setAdapter(aa);
-
-        // Add key listener to add the new todo item
-        // when the middle D-pad button is pressed.
-        mItemButton.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                mToDoItems.add(0, mEditText.getText().toString());
-                aa.notifyDataSetChanged();
-                mEditText.setText("");
-            }
-        });
 
         Log.i(TAG, "Entered onCreate");
     }
@@ -86,5 +77,3 @@ public class ToDoList extends Activity {
 
 
 }
-
-
