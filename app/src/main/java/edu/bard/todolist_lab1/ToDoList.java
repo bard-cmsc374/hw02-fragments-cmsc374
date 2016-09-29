@@ -12,12 +12,18 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+import java.util.List;
+import java.util.ArrayList;
 
 
 public class ToDoList extends FragmentActivity {
     public static String TAG = "todolab";
 
-
+    private EditText mEditText; // enter todo item
+    private Button mItemButton; // add the item to the list
+    private ArrayList<String> mToDoItems; // list of items
+    private ArrayAdapter<String> aa; // adapter from list to viewlist
+    private ListView mListView;
 
 
     @Override
@@ -26,23 +32,24 @@ public class ToDoList extends FragmentActivity {
         setContentView(R.layout.main);
 
         FragmentManager fm = getSupportFragmentManager();
-        Fragment fragment1 = fm.findFragmentById(R.id.fragment_item_view);
+        Fragment fragment1 = fm.findFragmentById(R.id.fragment_container);
         if (fragment1 == null) {
             fragment1 = new ItemView();
             fm.beginTransaction()
-                    .add(R.id.fragment_item_view, fragment1)
+                    .add(R.id.fragment_container, fragment1)
                     .commit(); }
       
-        Fragment fragment2 = fm.findFragmentById(R.id.fragment_list_view);
+        Fragment fragment2 = fm.findFragmentById(R.id.item_recycler_view);
         if (fragment2 == null) {
             fragment2 = new ItemView();
             fm.beginTransaction()
-                    .add(R.id.fragment_item_view, fragment2)
+                    .add(R.id.item_recycler_view, fragment2)
                     .commit(); }
 
 
         Log.i(TAG, "Entered onCreate");
     }
+
 
 
     protected void onStart() {

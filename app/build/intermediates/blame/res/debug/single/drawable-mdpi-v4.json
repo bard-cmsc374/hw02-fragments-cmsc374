@@ -2,5 +2,9 @@
     {
         "merged": "/home/sven/AndroidStudioProjects/ToDoList_lab1/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/icon.png",
         "source": "/home/sven/AndroidStudioProjects/ToDoList_lab1/app/src/main/res/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "/Users/GV/Desktop/hw02-fragments-cmsc37/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/icon.png",
+        "source": "/Users/GV/Desktop/hw02-fragments-cmsc37/app/src/main/res/drawable-mdpi/icon.png"
     }
 ]
