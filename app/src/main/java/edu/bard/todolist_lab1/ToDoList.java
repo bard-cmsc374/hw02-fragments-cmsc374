@@ -1,20 +1,11 @@
 package edu.bard.todolist_lab1;
 
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.ListFragment;
 import android.util.Log;
-import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ListView;
-import java.util.List;
-import java.util.ArrayList;
 
 
 public class ToDoList extends FragmentActivity implements ItemView.ItemListener{
@@ -33,7 +24,7 @@ public class ToDoList extends FragmentActivity implements ItemView.ItemListener{
 
         Fragment fragment1 = fm.findFragmentById(R.id.ListView);
         if (fragment1 == null) {
-            fragment1 = new ItemView();
+            fragment1 = new ListView();
             fm.beginTransaction()
                     .add(R.id.ListView, fragment1)
                     .commit(); }
@@ -53,7 +44,7 @@ public class ToDoList extends FragmentActivity implements ItemView.ItemListener{
     public void itemToSend (String item) {
 
         mItem = item;
-        ItemListFragment itemlistFrag = (ItemListFragment)getSupportFragmentManager().findFragmentById(R.id.ListView);
+        ListView itemlistFrag = (ListView)getSupportFragmentManager().findFragmentById(R.id.ListView);
         itemlistFrag.addItem(mItem);
 
     }

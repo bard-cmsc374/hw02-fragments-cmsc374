@@ -7,16 +7,16 @@
     android:layout_height="fill_parent">
 
   <FrameLayout
-      android:id="@+id/ListView"
+      android:id="@+id/ItemView"
       android:layout_width="match_parent"
-      android:layout_height="match_parent">
+      android:layout_height="wrap_content">
 
   </FrameLayout>
 
   <FrameLayout
-      android:id="@+id/ItemView"
+      android:id="@+id/ListView"
       android:layout_width="match_parent"
-      android:layout_height="wrap_content">
+      android:layout_height="match_parent">
 
   </FrameLayout>
 
