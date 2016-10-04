@@ -2,14 +2,14 @@ package edu.bard.todolist_lab1;
 
 import android.app.Activity;
 import android.support.v4.app.Fragment;
+
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListView;
 
 /**
  * Creat by Gareth Valentin on 9.24
@@ -18,14 +18,9 @@ import android.widget.EditText;
 public class ItemView extends Fragment {
 
 
+    public ItemListener mListener;
     private EditText mEditText;
     private Button mButton;
-    public ItemListener mListener;
-
-
-    public interface ItemListener {
-        public void itemToSend(String s);
-    }
 
     @Override
     public void onAttach(Activity activity) {
@@ -51,7 +46,7 @@ public class ItemView extends Fragment {
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_item_view, container, false);
 
-        mEditText = (EditText)v.findViewById(R.id.EditText);
+        mEditText = (EditText) v.findViewById(R.id.addEditText);
 
 
         mButton = (Button)v.findViewById(R.id.addButton);
@@ -64,6 +59,10 @@ public class ItemView extends Fragment {
         });
 
         return v;
+    }
+
+    public interface ItemListener {
+        public void itemToSend(String s);
     }
 
 }

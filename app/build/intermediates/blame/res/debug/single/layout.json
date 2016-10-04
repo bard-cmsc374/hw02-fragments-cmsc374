@@ -12,10 +12,6 @@
         "source": "/home/sven/AndroidStudioProjects/ToDoList_lab1/app/src/main/res/layout/main.xml"
     },
     {
-        "merged": "/Users/GV/Desktop/hw02-fragments-cmsc37/app/build/intermediates/res/merged/debug/layout/activity_fragment.xml",
-        "source": "/Users/GV/Desktop/hw02-fragments-cmsc37/app/src/main/res/layout/activity_fragment.xml"
-    },
-    {
         "merged": "/Users/GV/Desktop/hw02-fragments-cmsc37/app/build/intermediates/res/merged/debug/layout/main.xml",
         "source": "/Users/GV/Desktop/hw02-fragments-cmsc37/app/src/main/res/layout/main.xml"
     }

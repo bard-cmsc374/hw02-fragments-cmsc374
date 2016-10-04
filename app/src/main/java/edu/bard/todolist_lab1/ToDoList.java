@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.util.Log;
+import android.widget.ListView;
 
 
 public class ToDoList extends FragmentActivity implements ItemView.ItemListener{
@@ -22,11 +23,11 @@ public class ToDoList extends FragmentActivity implements ItemView.ItemListener{
 
         FragmentManager fm = getSupportFragmentManager();
 
-        Fragment fragment1 = fm.findFragmentById(R.id.ListView);
+        Fragment fragment1 = fm.findFragmentById(R.id.Listview);
         if (fragment1 == null) {
-            fragment1 = new ListView();
+            fragment1 = new ListViewer();
             fm.beginTransaction()
-                    .add(R.id.ListView, fragment1)
+                    .add(R.id.Listview, fragment1)
                     .commit(); }
 
       
@@ -44,8 +45,8 @@ public class ToDoList extends FragmentActivity implements ItemView.ItemListener{
     public void itemToSend (String item) {
 
         mItem = item;
-        ListView itemlistFrag = (ListView)getSupportFragmentManager().findFragmentById(R.id.ListView);
-        itemlistFrag.addItem(mItem);
+        ListViewer Pac = (ListViewer) getSupportFragmentManager().findFragmentById(R.id.Listview);
+        Pac.addItem(mItem);
 
     }
 
