@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/GV/Desktop/hw02-fragments-cmsc37/app/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/GV/Desktop/hw02-fragments-cmsc37/app/src/debug/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/sven/courses/374/ASgrading/hw02-fragments-cmsc374/app/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/sven/courses/374/ASgrading/hw02-fragments-cmsc374/app/src/debug/shaders"/></dataSet></merger>

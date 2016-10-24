@@ -1,18 +1,14 @@
 [
     {
-        "merged": "/Users/GV/Desktop/hw02-fragments-cmsc37/app/build/intermediates/res/merged/debug/layout/fragment_list_view.xml",
-        "source": "/Users/GV/Desktop/hw02-fragments-cmsc37/app/src/main/res/layout/fragment_list_view.xml"
+        "merged": "/Users/sven/courses/374/ASgrading/hw02-fragments-cmsc374/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/Users/sven/courses/374/ASgrading/hw02-fragments-cmsc374/app/src/main/res/layout/main.xml"
     },
     {
-        "merged": "/Users/GV/Desktop/hw02-fragments-cmsc37/app/build/intermediates/res/merged/debug/layout/fragment_item_view.xml",
-        "source": "/Users/GV/Desktop/hw02-fragments-cmsc37/app/src/main/res/layout/fragment_item_view.xml"
+        "merged": "/Users/sven/courses/374/ASgrading/hw02-fragments-cmsc374/app/build/intermediates/res/merged/debug/layout/fragment_list_view.xml",
+        "source": "/Users/sven/courses/374/ASgrading/hw02-fragments-cmsc374/app/src/main/res/layout/fragment_list_view.xml"
     },
     {
-        "merged": "/home/sven/AndroidStudioProjects/ToDoList_lab1/app/build/intermediates/res/merged/debug/layout/main.xml",
-        "source": "/home/sven/AndroidStudioProjects/ToDoList_lab1/app/src/main/res/layout/main.xml"
-    },
-    {
-        "merged": "/Users/GV/Desktop/hw02-fragments-cmsc37/app/build/intermediates/res/merged/debug/layout/main.xml",
-        "source": "/Users/GV/Desktop/hw02-fragments-cmsc37/app/src/main/res/layout/main.xml"
+        "merged": "/Users/sven/courses/374/ASgrading/hw02-fragments-cmsc374/app/build/intermediates/res/merged/debug/layout/fragment_item_view.xml",
+        "source": "/Users/sven/courses/374/ASgrading/hw02-fragments-cmsc374/app/src/main/res/layout/fragment_item_view.xml"
     }
 ]
